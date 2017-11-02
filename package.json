@@ -1,0 +1,17 @@
+{
+  "name": "simplii",
+  "version": "1.0.0",
+  "description": "API for Simplii Financial",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "David McCallum",
+  "license": "ISC",
+  "dependencies": {
+    "events": "^1.1.1",
+    "moment": "^2.19.1",
+    "request": "^2.83.0",
+    "util": "^0.10.3"
+  }
+}
