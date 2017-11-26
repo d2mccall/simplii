@@ -26,4 +26,7 @@ simplii.on('ready', function () {
 })
 ```
 
-Currently, only the last 30 days of transactions are downloaded. It is possible to modify the transaction query string to download different periods.  Simplii Financial only allows transaction downloads for the 12 months.
+## Notes
+Currently, only the last 30 days of transactions are downloaded. It is possible to modify the transaction query string to download different periods.  
+
+Simplii Financial only allows transaction downloads for the last 12 months.
