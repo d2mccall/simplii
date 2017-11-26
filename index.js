@@ -101,7 +101,7 @@ Simplii.prototype.getTransactions = function(accountId, cb) {
       if (err || response.statusCode != 200) {
          return cb({ message: 'failed to get transactions for account ' + accountId, details: body });
       }
-      cb(null, body);
+      cb(null, body.transactions);
    });
 }
 
